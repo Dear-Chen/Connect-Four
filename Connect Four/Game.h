@@ -36,7 +36,7 @@ class Game
 {
 public:
 	Game();
-	Game(ChessBoard board);
+	explicit Game(ChessBoard board);
 	~Game();
 
 //唯一的数据就是棋盘信息

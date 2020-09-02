@@ -63,10 +63,9 @@ double Game::randomPlayGame(int player)
 	ChessBoard temp;
 	temp = board;
 
-	int end;
 	while(1)
 	{
-		end = winner(&temp);
+		int end = winner(&temp);
 		if (end >= 0)
 		{
 			return end;
